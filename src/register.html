@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data to Email</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h1>Login/Register</h1>
+
+            <input type="hidden" name="access_key" value="39e7e479-1449-4ce4-be67-a0bddbc9ad61">
+            <input class="inputfield" type="text" name="Name" placeholder="Username" required>
+            <input class="inputfield" type="email" name="Email" placeholder="Your Email" required>
+            <input class="inputfield" type="password" name="Password" placeholder="Password" required>
+            
+            <p style="color: wheat;padding-top: 2vh;">New Here? 
+                <a href="signup.html
+                ">Create New Account</a></p>
+            <button type="submit">Submit</button><br>
+
+        </form>
+        <div class="right">
+            
+            <img src="logic.png" alt="" style="position: absolute;top: 10vh; left: 52vw;">
+        
+        </div>
+    </div>
+</body>
+
+</html>
